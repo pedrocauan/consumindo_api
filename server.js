@@ -3,10 +3,16 @@ const app = express()
 
 
 app.get("/", (req, res) => {
-    res.json([
-        {name: "jeff"},
-        {name:"diego"}
-    ])
+    //tente a espera dessa
+    try{
+        res.json([
+            {name: "jeff"},
+            {name:"diego"}
+        ])
+    } catch(error) {
+        console.log(error)
+    }
+   
 })
 
 

@@ -14,3 +14,4 @@ Criar uma API
 Consumir API
 1. [X]  - Utilizar fetch para consumir a API backend
 1. [X]  - Revisar os conceitos de promise
+1. [X]  - Usar try/catch
