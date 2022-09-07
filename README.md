@@ -22,4 +22,4 @@ Consumir API
 1. [X] - jsonplaceholder https://jsonplaceholder.typicode.com/users
 1. [X] - usar axios
 1. [X] - semelhanças entre axios e fetch
-1. [ ] - usar try/cath
+1. [X] - usar try/cath
