@@ -1,5 +1,8 @@
 # Consumir API
 
+Projeto criado para fixar conceitos básicos sobre promises, axios, fetch, tratamento de erro e leitura e envio de arquivos via json
+
+
 ## API
 
 Criar uma API
