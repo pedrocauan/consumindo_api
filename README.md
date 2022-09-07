@@ -4,8 +4,8 @@ Projeto criado para fixar conceitos sobre promises, axios, fetch, tratamento de 
 
 
 ## Dependencias:
-  npm install express nodemon cors axios 
-  npx lite-server (para rodar um servidor local na porta 3000 e abrir o index.html)
+  ### npm install express nodemon cors axios 
+  ### npx lite-server (para rodar um servidor local na porta 3000 e abrir o index.html)
 
 ## API
 
