@@ -15,3 +15,11 @@ Consumir API
 1. [X]  - Utilizar fetch para consumir a API backend
 1. [X]  - Revisar os conceitos de promise
 1. [X]  - Usar try/catch
+
+
+## BACKEND 
+Consumir API
+1. [X] - jsonplaceholder https://jsonplaceholder.typicode.com/users
+1. [ ] - usar axios
+1. [ ] - semelhanças entre axios e fetch
+1. [ ] - usar try/cath
