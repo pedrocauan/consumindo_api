@@ -12,3 +12,5 @@ Criar uma API
 
 ## FRONT END
 Consumir API
+1. [X]  - Utilizar fetch para consumir a API backend
+1. [X]  - Revisar os conceitos de promise
