@@ -3,6 +3,10 @@
 Projeto criado para fixar conceitos básicos sobre promises, axios, fetch, tratamento de erro e leitura e envio de arquivos via json
 
 
+## Dependencias:
+  npm install express nodemon cors axios 
+  npx lite-server (para rodar um servidor local na porta 3000 e abrir o index.html)
+
 ## API
 
 Criar uma API
