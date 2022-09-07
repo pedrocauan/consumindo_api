@@ -9,11 +9,12 @@ const { restart } = require("nodemon")
 
 app.use(cors())
 
+//Rota que tá a API
 app.get("/", async (req, res) => {
     try {
         //response é a resposta do axios, mas eu tiro o data de dentro do response
-        const { data } = await axios("https://jsonplaceholder.typicode.com/users")
-        return res.json(data)
+        const { data } = await axios("https://jsonplaceholder.typicode.com/users") /*endereço da api que o backend vai consumir*/
+        return res.json(data) /*enviando os dados da API via json para o front*/
     } catch (error) {
         console.log(error)
     }

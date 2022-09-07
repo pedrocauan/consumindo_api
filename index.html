@@ -4,10 +4,11 @@
 </body>
 
 <script>
+    //Pega os dados do API
     async function getContent(){
         try{
+            /*pega os dados convertidos em json do backend via fetch*/
             const response = await fetch("http://localhost:4567/")
-            //console.log(response)
             const data = await response.json()
 
             show(data)
@@ -19,14 +20,20 @@
 
     getContent()
     
+    ///Mostra os dados do backend no front
     function show(users) {
-        let output = ''
+        let output = '' /*Guarda todos os nomes */
 
-        for(let user of users) {
+        /*Guarda todos os usuarios em uma tabela*/
+        users.forEach(user => {
             output += `<li>${user.name}</>`
-        }
+        })
 
-        document.querySelector("main").innerHTML = output
+        /*for(let user of users) {
+            output += `<li>${user.name}</>`
+        }*/
+
+        document.querySelector("main").innerHTML = output /*Coloca os dados na tela*/
     }
 
 </script>
